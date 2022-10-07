@@ -31,7 +31,7 @@ export default function Prova(){
         <section className='page-prova'>
             <div>
                 <h1>Calcular Açai</h1>
-                    Qdp:<input></input>
+                    Qdp:<input value={pequeno}></input>
                     Qdm<input></input>
                     Qdg:<input></input>
                     Desconto:<input></input>
