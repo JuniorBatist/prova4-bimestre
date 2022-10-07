@@ -2,41 +2,27 @@ import './index.scss';
 import { useState } from 'react';
 
 export default function Prova(){
-    const [pequeno, setPequeno] = useState('');
-    const [media, setMedia] = useState('');
-    const [grande, setGrande] = useState('');
-    const [desconto, setDesconto] = useState('');
+    const [qtdPeq, setPequeno] = useState();
+    const [qtdMed, setMedia] = useState();
+    const [qtdGra, setGrande] = useState();
+    const [desconto, setDesconto] = useState();
+    const [resul, setResul] = useState('');
    
-    function calcularAçai(qtdPeq, qtdMed, qtdGra, desc){
-        let m='';
-        qtdPeq = 13,50;
-        qtdMed = 15,00;
-        qtdGra = 17,50;
-
-        if (qtdPeq == 1 + qtdMed == 1  + qtdGra == 1){
-            m = 'total à pagar é';
-        };
-
-        if (qtdPeq == 2 + qtdGra == 1){
-            m = 'total à pagar é'
-        }
-
-        if (qtdPeq == 2 + qtdGra == 1){
-            m = 'total à pagar é'
-        }
-        return m;
+    function calcularAçai(){
+        let x = qtdPeq + qtdMed + qtdGra / desconto;
+        setResul (x);
     }
 
     return(
         <section className='page-prova'>
             <div>
                 <h1>Calcular Açai</h1>
-                    Qdp:<input value={pequeno}></input>
-                    Qdm<input></input>
-                    Qdg:<input></input>
-                    Desconto:<input></input>
-                <button className='botão'></button>
-                <div>{m}</div>
+                    Qdp:<input type="number" value={qtdPeq} onChange={e => setPequeno(Number(e.target.value))} ></input>
+                    Qdm<input type='number' value={qtdMed} onChange= {e => setMedia(Number(e.target.value))}></input>
+                    Qdg:<input type='number' value={qtdGra} onChange= {e => setGrande(Number(e.target.value))}></input>
+                    Desconto:<input type='number' value={desconto} onChange= {e => setDesconto(Number(e.target.value))}></input>
+                <button className='botão'>{calcularAçai}</button>
+                <div>{resul}</div>
             </div>
         </section>
     )
