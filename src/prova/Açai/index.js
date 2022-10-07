@@ -10,7 +10,7 @@ export default function Prova(){
    
     function calcularAçai(){
         let x = qtdPeq + qtdMed + qtdGra / desconto;
-        setResul (x);
+        setResul(x);
     }
 
     return(
@@ -21,7 +21,7 @@ export default function Prova(){
                     Qdm<input type='number' value={qtdMed} onChange= {e => setMedia(Number(e.target.value))}></input>
                     Qdg:<input type='number' value={qtdGra} onChange= {e => setGrande(Number(e.target.value))}></input>
                     Desconto:<input type='number' value={desconto} onChange= {e => setDesconto(Number(e.target.value))}></input>
-                <button className='botão'>{calcularAçai}</button>
+                <button className='botão' onClick ={calcularAçai}></button>
                 <div>{resul}</div>
             </div>
         </section>

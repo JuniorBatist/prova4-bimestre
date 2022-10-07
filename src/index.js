@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Prova from './prova';
+import Prova from '..';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
