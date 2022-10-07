@@ -13,17 +13,18 @@ export default function Prova(){
         qtdMed = 15,00;
         qtdGra = 17,50;
 
-        if {qtdPeq == 1 + qtdMed == 1 = + qtdGra == 1}(
-            return m = 'total à pagar é'
-        );
+        if (qtdPeq == 1 + qtdMed == 1  + qtdGra == 1){
+            m = 'total à pagar é';
+        };
 
         if (qtdPeq == 2 + qtdGra == 1){
-            return m = 'total à pagar é'
+            m = 'total à pagar é'
         }
 
         if (qtdPeq == 2 + qtdGra == 1){
-            return m = 'total à pagar é'
+            m = 'total à pagar é'
         }
+        return m;
     }
 
     return(
@@ -35,6 +36,7 @@ export default function Prova(){
                     Qdg:<input></input>
                     Desconto:<input></input>
                 <button className='botão'></button>
+                <div>{m}</div>
             </div>
         </section>
     )
