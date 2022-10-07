@@ -12,6 +12,18 @@ export default function Prova(){
         qtdPeq = 13,50;
         qtdMed = 15,00;
         qtdGra = 17,50;
+
+        if {qtdPeq == 1 + qtdMed == 1 = + qtdGra == 1}(
+            return m = 'total à pagar é'
+        );
+
+        if (qtdPeq == 2 + qtdGra == 1){
+            return m = 'total à pagar é'
+        }
+
+        if (qtdPeq == 2 + qtdGra == 1){
+            return m = 'total à pagar é'
+        }
     }
 
     return(
