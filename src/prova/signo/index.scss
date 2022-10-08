@@ -1,0 +1,25 @@
+.page-signo{
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+
+    .page{
+        display: flex;
+        flex-direction: column;
+
+        width: 9em;
+        height: 2em;
+
+        margin-left:35em;
+    }
+}
+
+.botão {
+    width: 9em;
+    height: 10em;
+    margin-left: 1em;
+    margin-top:2em;
+
+    border-radius: 5em;
+    color:red;
+}
