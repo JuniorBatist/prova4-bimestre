@@ -1,0 +1,15 @@
+.page-salario{
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+
+    .botao{
+        width: 9em;
+        height: 2em;
+        margin-left: 1em;
+        margin-top:2em;
+    
+        border-radius: 5em;
+        color:red;
+    }
+}
