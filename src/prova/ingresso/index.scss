@@ -1,0 +1,22 @@
+.page-ingresso{
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+
+    .botao{
+        width: 9em;
+        height: 2em;
+        margin-left: 1em;
+        margin-top:2em;
+    
+        border-radius: 4px;
+        color:red;
+    }
+
+    .inp{
+        text-align: center;  
+        display: flex;
+        flex-direction: column;
+        width: 10em;    
+    }
+}

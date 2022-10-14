@@ -8,11 +8,14 @@ import Sorveteria from '../src/prova/sorveteria';
 import Febre from '../src/prova/situacao febre'; 
 import Salario from '../src/prova/calcular salario'; 
 import Paradas from '../src/prova/paradas'; 
+import Orcamento from '../src/prova/orcamento';
+import Ingresso from '../src/prova/ingresso';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Paradas/>
+    <Ingresso/>
   </React.StrictMode>
 );
 
