@@ -32,7 +32,7 @@ export default function Ingresso(){
             inteiras:<input type='text' value={inteiras} onChange={e => setInteiras(Number(e.target.value))}/>
             meias: <input type='text' value={meias} onChange={e => setMeias(Number(e.target.value))}/>
             dia: <input type='text' value={dia} onChange={e => setDia(e.target.value)}/>
-            nacional:<input type='text' value={nacional} onChange={e => setNacional(e.target.value)}/>
+            nacional:<input type='checkdbox' checked={nacional} onChange={e => setNacional(e.target.checked)}/>
         </div>
 
         <div>

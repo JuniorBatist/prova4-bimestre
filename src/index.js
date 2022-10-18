@@ -10,12 +10,13 @@ import Salario from '../src/prova/calcular salario';
 import Paradas from '../src/prova/paradas'; 
 import Orcamento from '../src/prova/orcamento';
 import Ingresso from '../src/prova/ingresso';
+import Conta from '../src/prova/contar';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Ingresso/>
+    <Conta/>
   </React.StrictMode>
 );
 
