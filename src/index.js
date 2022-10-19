@@ -11,12 +11,13 @@ import Paradas from '../src/prova/paradas';
 import Orcamento from '../src/prova/orcamento';
 import Ingresso from '../src/prova/ingresso';
 import Conta from '../src/prova/contar';
+import Linha from '../src/prova/linha';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Conta/>
+    <Linha/>
   </React.StrictMode>
 );
 

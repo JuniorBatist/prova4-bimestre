@@ -8,16 +8,11 @@ export default function Conta(){
     const [ fim, setFim] = useState(0);
     const [ contar, setContar] = useState(0);
 
-    function conta(){
-        for (let cont = inicio; cont <= fim; cont++ ){
-            setContar(cont);
-        }
-    }
 
     function contarAte(){     
         let a = []         
-        for(let cont = inicio; cont <= fim; cont++)    
-        a.push(cont)      
+        for(let cont = inicio; cont <= fim; cont++)
+        a.push(cont)
         setContar(a +  '')
         
     }
