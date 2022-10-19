@@ -12,12 +12,13 @@ import Orcamento from '../src/prova/orcamento';
 import Ingresso from '../src/prova/ingresso';
 import Conta from '../src/prova/contar';
 import Linha from '../src/prova/linha';
+import Retangulo from './prova/retangulo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Linha/>
+    <Retangulo/>
   </React.StrictMode>
 );
 

@@ -18,7 +18,7 @@ export default function Conta(){
     }
     return(
         <section className='page-contar'>
-            <div>
+            <div className=''>
                 <h1>Contar</h1>
                 inicio: <input type='text' value={inicio} onChange={e => setInicio (e.target.value)}/>
                 fim: <input type='text' value={fim} onChange={e => setFim (e.target.value)}/>
