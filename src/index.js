@@ -13,12 +13,13 @@ import Ingresso from '../src/prova/ingresso';
 import Conta from '../src/prova/contar';
 import Linha from '../src/prova/linha';
 import Retangulo from './prova/retangulo';
+import CalcularMedia from './prova/calcularMedia';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Retangulo/>
+    <CalcularMedia/>
   </React.StrictMode>
 );
 

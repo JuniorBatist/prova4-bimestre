@@ -8,9 +8,7 @@ export default function Retangulo(){
     const [resul, setResul] = useState('');
 
     function fzrRetangulo(){
-        for (let cont = 1; cont <= base; cont++){
-            if ( cont = 1; cont <= altura; cont++)
-        }
+       
 
     }
 
